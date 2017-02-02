@@ -1,3 +1,6 @@
+# Why this fork exists
+This fork solves Cocoapods problem. Actual POD (v.1.5) is linked with old version (tag 1.5) of TBXML. But this version is really buggy. Podspec from this fork is linked to master branch
+
 ### What is TBXML
 
 TBXML is a light-weight XML document parser written in Objective-C designed for use on Apple iPad, iPhone & iPod Touch devices (also Mac OSX compatible). TBXML aims to provide the fastest possible XML parsing whilst utilising the fewest resources. This requirement for absolute efficiency is achieved at the expense of XML validation and modification. It is not possible to modify and generate valid XML from a TBXML object and no validation is performed whatsoever whilst importing and parsing an XML document.
